@@ -35,5 +35,42 @@ The implementation of RISC-V architecture can be undestood in the following flow
 ![Screenshot (4)](https://github.com/SamAI20/VSD_workshop/assets/165182988/87c4b597-fcf9-4991-b3bf-32cedb14e00f)
 
 
+# OPENLANE FLOW
+
+In this lab, we first proceed with invoking the OPENLANE interactive mode by invoking commands in the terminal as seen below:
+
+![openlane](https://github.com/SamAI20/VSD_workshop/assets/165182988/d7a511f0-4ac9-4388-94d5-6c67b274b40b)
+
+Now that openlane is up and running, we need to setup our preparations and design path. The path is Desktop/work/tools/openlane_working_directory/openlane/ and then type the commmands for synthesis i.e "run synthesis" after entering interactive mode. It takes around 5 min to completely finish the synthesis as seen below:
+
+![synthesis](https://github.com/SamAI20/VSD_workshop/assets/165182988/fba6793c-dd78-4d1b-bbac-8669dc018a6f)
+
+One of the main aim is to calculate flop ratio i.r the number of d flip flops in the designs. This is done by taking the no of D flip-flops and dividing it by the total cells.
+The total number of D flip flops is 1613 
+
+![no of d flip flops](https://github.com/SamAI20/VSD_workshop/assets/165182988/6098b74b-8720-4063-b995-657305675beb)
+
+
+Similarly the total number of cells is 14876
+
+
+
+![no of cells](https://github.com/SamAI20/VSD_workshop/assets/165182988/709f9251-a3ce-44d0-a71e-d50908c1ac87)
+
+
+So now we can calculate the flop ratio which is  (1613)/(14876) = 0.1084 which is percentage is  10.84%. Therefore the flop ratio is 10.84%
+
+Finally the synthesized netlist is obtained and verification of each wire mapping is done as seen below:
+
+![synthesized netlist](https://github.com/SamAI20/VSD_workshop/assets/165182988/0c8a10ea-f947-4a87-8f63-5dbe738fed2b)
+
+
+
+
+
+
+
+
+
 
 
