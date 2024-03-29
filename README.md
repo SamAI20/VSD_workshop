@@ -20,8 +20,8 @@ To send and receive signals from inside and outside the package, "pads" are used
 ![RISC V sample chip](https://github.com/SamAI20/VSD_workshop/assets/165182988/4945cc36-be9e-4297-bef6-e3ad3294ad0a)
 
 This package consists of various components :
-SRAM, ADC,DAC,PLL, SPI
-These above are collectively the "Foundary IPs"
+SRAM, ADC,DAC,PLL, SPI.
+These  are collectively the "Foundary IPs"
 Foundary is nothing but the set of machines which the SOC/PD/VLSI engineers continously communicate with in order to realise the compenent. IP require some amount of intelligence to make some automated blocks. Design blocks are also macros that consist of pure digital logic.
 
 
