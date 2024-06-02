@@ -99,6 +99,18 @@ The subsequent layout is shown below:
 ![floorplan gui](https://github.com/SamAI20/VSD_workshop/assets/165182988/1dd8d1e5-0f57-47ed-942f-0651880d8fc2)
 
 The above shows the GUI Layout of the chip after performing floorplan.
+The next step in the design flow after floorplan is placement. Placement is done using the command run_placement. This procedure is shown below:
+
+
+
+![placement done](https://github.com/SamAI20/VSD_workshop/assets/165182988/91bd38c1-8f16-49d9-90ed-5216599ae1f0)
+
+Post placement we get a detailed layout where all the components are placed with respect to the technology library cells. This can be seen in detail from the below image:
+
+
+![post placement cells](https://github.com/SamAI20/VSD_workshop/assets/165182988/be5a4997-6c20-43ab-bd4e-f5a9b6354b59)
+
+This completes the floorplan and placement flow in the design flow.
 
 
 
