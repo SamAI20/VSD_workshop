@@ -68,6 +68,49 @@ Finally the synthesized netlist is obtained and verification of each wire mappin
 
 
 
+# Day 2: Good Floorplan VS Bad Floorplan and Introduction to Library Cells
+
+
+In Day 2, basics of floorplan along with how to procced with a good plan and also how to avoid floorplan was taught. In the labs sessions, the floorplan can be executed using the run_floorplan command, however before we proceed with floorplan, we need to check the configuration of default switches as seen below:
+
+
+![floor plan default switches](https://github.com/SamAI20/VSD_workshop/assets/165182988/bad6c002-ece0-4f88-b7bb-7bdf8c9d583a)
+
+
+After looking at the default configurations of switches, it is now time to execute the command "run_floorplan" and begin floorplan.
+
+
+![floorplan executed](https://github.com/SamAI20/VSD_workshop/assets/165182988/0d33514f-84d2-4a2e-8b12-81b960a9af33)
+
+
+Now that floorplan is completed, we an now proceed with viewing the dimensions of the chip in order to calculate the area of the chip after floorplan. In the conversion, 1 micron is equal to 1000 database units. 
+
+
+![results of floorplan and area executed](https://github.com/SamAI20/VSD_workshop/assets/165182988/5c3b6448-33f7-4417-9754-615e5ddc4a7a)
+
+From the new values obtained, we can now calculate the area of the chip. 
+But first we need to convert the dimensions from database units to microns. So the new dimensions in microns are: 660.685 microns and 671.405 microns respectively.
+Now the area of the chip becomes: 660.685 x 671.405 microns which is 443,587.2124 microns.
+Therefore the area of the chip after floorplan is 443,587.2124 microns.
+
+After calculating the area of the chip, we can now see the GUI layout of the post Floorplan using Magic tool. The tool can be invoked using the command magic -T.
+The subsequent layout is shown below:
+
+![floorplan gui](https://github.com/SamAI20/VSD_workshop/assets/165182988/1dd8d1e5-0f57-47ed-942f-0651880d8fc2)
+
+The above shows the GUI Layout of the chip after performing floorplan.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
