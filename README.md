@@ -114,6 +114,16 @@ This completes the floorplan and placement flow in the design flow.
 
 
 
+# DAY 3 : Design Library Cell Using Magic Layout and NGSpice Characterization
+
+In day 3 labs, the first task was given to make changes to the I/o settings using IO placer tool. IO Placer is an open source tool to place or change any input settings. In previous floorplan, all the components are placed symmetrically, however this can be changed using the set command in the IO placer as shown below:
+
+![changing io mode setting](https://github.com/SamAI20/VSD_workshop/assets/165182988/cf6c979a-c4a9-4db6-9280-d265456f9bf5)
+
+After these changes the IO placement, the run_floorplan command is given once again to change the arrangement of the pins which is seen below:
+
+![unsymmetrically placed](https://github.com/SamAI20/VSD_workshop/assets/165182988/164cea27-cfd2-47ec-8500-87ebe47c81e4)
+
 
 
 
