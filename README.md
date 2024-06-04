@@ -135,7 +135,8 @@ After pasting the clone link via url, we see the following files in the terminal
 
 Now we can see the layout of the inverter after pasting the sky130A.tech file from the magic folder to the new cloned folder i.e vsdstdcell. After invoking the magic tool, we obtain the layout of the inverter as shown below:
 
-![Screenshot 2024-06-04 091111](https://github.com/SamAI20/VSD_workshop/assets/165182988/5ba4ad3b-262d-46ad-bffc-9124c1cb9f99)
+![Screenshot 2024-06-04 105231](https://github.com/SamAI20/VSD_workshop/assets/165182988/f32e9f27-354c-4ca9-8a56-f47e53838cf9)
+
 
 
 
