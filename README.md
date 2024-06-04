@@ -136,6 +136,16 @@ After pasting the clone link via url, we see the following files in the terminal
 Now we can see the layout of the inverter after pasting the sky130A.tech file from the magic folder to the new cloned folder i.e vsdstdcell. After invoking the magic tool, we obtain the layout of the inverter as shown below:
 
 ![Screenshot 2024-06-04 105231](https://github.com/SamAI20/VSD_workshop/assets/165182988/f32e9f27-354c-4ca9-8a56-f47e53838cf9)
+ 
+ The above layout is now extracted from magic to a spice file as shown below :
+
+ ![extracting](https://github.com/SamAI20/VSD_workshop/assets/165182988/7dd4fabe-6ad0-4a22-9e94-c17ccbf8f3f7)
+
+ Now we have successfully obtained a spice file. The contents of the spice file are shown below:
+
+![spice file created](https://github.com/SamAI20/VSD_workshop/assets/165182988/633adb6e-d511-4d9f-a9f0-436ebeead052)
+
+ 
 
 
 
