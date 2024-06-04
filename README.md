@@ -114,7 +114,7 @@ This completes the floorplan and placement flow in the design flow.
 
 
 
-# DAY 3 : Design Library Cell Using Magic Layout and NGSpice Characterization
+# DAY 3 : Design Library Cell Using Magic Layout and Gitclone vsdstdcelldesign
 
 In day 3 labs, the first task was given to make changes to the I/o settings using IO placer tool. IO Placer is an open source tool to place or change any input settings. In previous floorplan, all the components are placed symmetrically, however this can be changed using the set command in the IO placer as shown below:
 
