@@ -125,6 +125,22 @@ After these changes the IO placement, the run_floorplan command is given once ag
 ![unsymmetrically placed](https://github.com/SamAI20/VSD_workshop/assets/165182988/164cea27-cfd2-47ec-8500-87ebe47c81e4)
 
 
+After this, we clone the the vsdstdcells from github to take the sky130inv_mag in order to see the inverter layout in magic tool. The repository is shown below:
+
+![git-clone](https://github.com/SamAI20/VSD_workshop/assets/165182988/3589345d-2d77-4a88-87d1-3a604b2ef047)
+
+After pasting the clone link via url, we see the following files in the terminal:
+
+![after cloning](https://github.com/SamAI20/VSD_workshop/assets/165182988/7b727d54-f181-4951-85e9-fababcc1f23b)
+
+Now we can see the layout of the inverter after pasting the sky130A.tech file from the magic folder to the new cloned folder i.e vsdstdcell. After invoking the magic tool, we obtain the layout of the inverter as shown below:
+
+![Screenshot 2024-06-04 091111](https://github.com/SamAI20/VSD_workshop/assets/165182988/5ba4ad3b-262d-46ad-bffc-9124c1cb9f99)
+
+
+
+
+
 
 
 
